@@ -1,3 +1,5 @@
+import Node from "./node.js";
+
 // Single linked list NOT double
 class LinkedList {
     constructor(headNode = null) {
@@ -176,11 +178,3 @@ class LinkedList {
 
 }
 
-// Create node that contains a value and reference to next node in the list
-class Node {
-    constructor(value = null, nextNode=null) {
-        this.value = value;
-        this.nextNode = nextNode;
-
-    }
-}
